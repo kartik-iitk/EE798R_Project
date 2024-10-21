@@ -52,7 +52,11 @@ The code is organised in 3 files. Run them in the following order:
 
 The generated model will be saved in the `./Models` folder. The corresponding visualisations will be saved in the `./logs` folder. The split-wise accuracies are saved in the`./Results` folder in `.xlsx` format.
 
-For reference, a combined analysis of the accuracies achieved are in `./Accuracy\ Analysis\ Summary.xlsx`.
+For reference, a combined analysis of the accuracies achieved are in `./Results/Accuracy\ Analysis\ Summary.xlsx`.
+
+### Report
+
+The report corresponding to my implementation is available in `./kartik_210493_report.pdf`.
 
 ## Acknowledgments
 
