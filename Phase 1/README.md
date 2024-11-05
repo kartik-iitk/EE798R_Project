@@ -1,6 +1,4 @@
-# Paper 1 - TIM-Net
-
-Following is the **_modified_** implementation of **T**emporal-aware b**I**-direction **M**ulti-scale Network, termed **TIM-Net**. [[paper]](https://arxiv.org/abs/2211.08233)
+# Phase 1 - TIM-Net
 
 ## How to Run?
 
@@ -8,7 +6,7 @@ I have trained and tested the code on an _OSX-ARM_ Architecture in a `Python 3.8
 
 ### Setup Environment
 
-`cd` to the `./Paper\ 1` directory. Create the environment from the `./requirements.txt` file using the following command:
+`cd` to the `./Phase\ 1` directory. Create the environment from the `./requirements.txt` file using the following command:
 
 ```
 conda create --name IPR_P1 --file requirements.txt
@@ -52,20 +50,8 @@ The code is organised in 3 files. Run them in the following order:
 
 The generated model will be saved in the `./Models` folder. The corresponding visualisations will be saved in the `./logs` folder. The split-wise accuracies are saved in the`./Results` folder in `.xlsx` format.
 
-For reference, a combined analysis of the accuracies achieved are in `./Results/Accuracy\ Analysis\ Summary.xlsx`.
+For reference, a combined analysis of the accuracies achieved are in `./Results/Phase\ 1\ -\ Accuracy\ Analysis\ Summary.xlsx`.
 
 ### Report
 
 The report corresponding to my implementation is available in `./kartik_210493_report.pdf`.
-
-## Acknowledgments
-
-```bibtex
-@inproceedings{TIMNET,
-  title={Temporal Modeling Matters: A Novel Temporal Emotional Modeling Approach for Speech Emotion Recognition},
-  author = {Ye, Jiaxin and Wen, Xincheng and Wei, Yujie and Xu, Yong and Liu, Kunhong and Shan, Hongming},
-  booktitle = {ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Rhodes Island, Greece, June 4-10, 2023},
-  pages={1--5},
-  year = {2023}
-}
-```
