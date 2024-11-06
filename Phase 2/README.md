@@ -30,3 +30,4 @@ For reference, a combined analysis of the accuracies achieved are in `./Results/
 ### Report
 
 The report corresponding to my implementation of Phase 2 is available in `./kartik_210493_report.pdf`.
+A supplementary supporting architecture diagram (`./architecture.pdf`) is created for ease of understanding.
